@@ -81,13 +81,13 @@ var main = new function() {
       }
 
       let menuItems = [
-        {html: 'Deutsch', line: false, callback: function() { setLang('de'); }}, //remove
-        {html: 'Ελληνικά', line: false, callback: function() { setLang('el'); }},//remove
+        {html: 'Deutsch', line: false, callback: function() { setLang('de'); }},
+        {html: 'Ελληνικά', line: false, callback: function() { setLang('el'); }},
         {html: 'English', line: false, callback: function() { setLang('en'); }},
-        {html: 'Español', line: false, callback: function() { setLang('es'); }},//remove
-        {html: 'Français', line: false, callback: function() { setLang('fr'); }},//remove
-        {html: 'Nederlands', line: false, callback: function() { setLang('nl'); }},//remove
-        {html: 'tlhIngan', line: false, callback: function() { setLang('tlh'); }}, // Klingon - Stays
+        {html: 'Español', line: false, callback: function() { setLang('es'); }},
+        {html: 'Français', line: false, callback: function() { setLang('fr'); }},
+        {html: 'Nederlands', line: false, callback: function() { setLang('nl'); }},
+        {html: 'tlhIngan', line: false, callback: function() { setLang('tlh'); }},
         {html: 'עברית', line: false, callback: function() { setLang('he', "rtl"); }},
         {html: 'العربية', line: false, callback: function() { setLang('ar', "rtl"); }},
 
