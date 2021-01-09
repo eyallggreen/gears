@@ -3,36 +3,43 @@ i18n.append({
     en: 'Dimensions',
     fr: 'Dimensions',
     de: 'Dimensionen',
+    he: 'מידות',
   },
   '#robot-wheelDiameter#': {
     en: 'Wheel Diameter',
     fr: 'Diamètre des roues',
     de: 'Raddurchmesser',
+    he: 'קוטר הגלגל',
   },
   '#robot-wheelSpacing#': {
     en: 'Wheel Spacing',
     fr: 'Espace entre les roues',
     de: 'Radabstand',
+    he: 'מרווח בין הגלגלים',
   },
   '#robot-actuators#': {
     en: 'Actuators',
     fr: 'Actionneurs',
     de: 'Antrieb',
+    he: 'מפעילי הרובוט',
   },
   '#robot-port#': {
     en: 'Port',
     fr: 'Port',
     de: 'Port',
+    he: 'יציאה',
   },
   '#robot-leftWheel#': {
     en: 'Left Wheel',
     fr: 'roue gauche',
     de: 'linkes Rad',
+    he: 'גלגל שמאלי',
   },
   '#robot-rightWheel#': {
     en: 'Right Wheel',
     fr: 'roue droite',
     de: 'rechtes Rad',
+    he: 'גלגל ימני',
   },
   '#robot-electromagnet#': {
     en: 'Electromagnet',

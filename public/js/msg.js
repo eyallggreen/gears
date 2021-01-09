@@ -7,6 +7,7 @@ let MSGS = {
     el: 'Κίνηση',
     nl: 'Beweging',
     de: 'Bewegung',
+    he: 'תנועה',
   },
   '#blk-motor#': {
     en: 'Motor',
@@ -16,6 +17,7 @@ let MSGS = {
     el: 'Κινητήρες',
     nl: 'Motor',
     de: 'Motor',
+    he: 'מנוע',
   },
   '#blk-sensors#': {
     en: 'Sensors',
@@ -25,6 +27,7 @@ let MSGS = {
     el: 'Αισθητήρες',
     nl: 'Sensoren',
     de: 'Sensor',
+    he: 'חיישנים',
   },
   '#blk-sound#': {
     en: 'Sound',
@@ -34,6 +37,7 @@ let MSGS = {
     el: 'Ήχος',
     nl: 'Geluid',
     de: 'Ton',
+    he: 'צליל',
   },
   '#blk-pen-category#': {
     en: 'Pen (Experimental)',
@@ -625,6 +629,7 @@ let MSGS = {
     el: 'Μπλοκ',
     nl: 'Blokken',
     de: 'Blöcke',
+    he: 'קוד',
   },
   '#main-sim#': {
     en: 'Simulator',
@@ -634,6 +639,7 @@ let MSGS = {
     el: 'Προσομοιωτής',
     nl: 'Simulator',
     de: 'Simulator',
+    he: 'סימולטור',
   },
   '#main-file#': {
     en: 'File',
@@ -643,6 +649,7 @@ let MSGS = {
     el: 'Αρχείο',
     nl: 'Bestand',
     de: 'Datei',
+    he: 'קובץ',
   },
   '#main-new_program#': {
     en: 'New Program',
