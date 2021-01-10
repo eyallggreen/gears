@@ -176,7 +176,7 @@ let MSGS = {
     el: 'διακοπή και έξοδος',
     nl: 'remmen',
     de: 'bremsen',
-    he: '???',
+    he: 'מידי',
   },
   '#blk-coast#': {
     en: 'coast',
@@ -184,7 +184,7 @@ let MSGS = {
     el: 'κύλησε',
     nl: 'uitrijden',
     de: 'rollen',
-    he: '???',
+    he: 'דעיכה',
   },
   '#blk-hold#': {
     en: 'hold',
@@ -432,13 +432,13 @@ let MSGS = {
     en: 'Returns the oldest message and remove it from the mailbox. Return value is a list containing both the message content and the sender id.',
     nl: 'Geeft het oudste bericht weer en verwijdert het uit het postvak. Weergegeven waarde is een lijst met zowel de berichtinhoud als de ID van de verzender.',
     de: 'Sendet die älteste Naricht zurück und entfernt sie von der Mailbox. Der zurückgegebene Wert ist eine Liste mit dem Inhalt der Naricht und die ID des Absenders.',
-    he: '????',
+    he: 'החזר את המסר הישן ביותר והוצא מתיבת הדואר. הערך שחוזר הוא מסוג רשימה הכוללת את תוכן המסר ומספר השולח',
   },
   '#blk-radio_read_content_tooltip#': {
     en: 'Returns the oldest message and remove it from the mailbox. Return value contains only the message content.',
     nl: 'Geeft het oudste bericht weer en verwijdert het uit het postvak. Weergegeven waarde bevat enkel de berichtinhoud.',
     de: 'Sendet die älteste Naricht zurück und entfernt sie von der Mailbox. Der zurückgegebene Wert ist der Inhalt der Nachricht.',
-    he: '????',
+    he: 'החזר את המסר הישן ביותר והוצא מתיבת הדואר. הערך שחוזר הוא רק תוכן ההודעה.',
   },
   '#blk-color_sensor#': {
     en: 'color_sensor',
@@ -587,7 +587,7 @@ let MSGS = {
     el: 'ο κινητήρας θα συνεχίσει να λειτουργεί μέχρι να δοθεί διαφορετική εντολή',
     nl: 'Motor zal continue draaien totdat een ander commando wordt gegeven',
     de: 'Motor wird sich weiter bewegen bis ein anderes Kommando gegeben wird',
-    he: '????',
+    he: 'המנוע יופעל עד שיקבל פקודה אחרת',
   },
   '#blk-to_position#': {
     en: 'to position',
@@ -659,7 +659,7 @@ let MSGS = {
     el: 'Τρέχων χρόνος Unix σε δευτερόλεπτα',
     nl: 'Huidige Unix tijd in seconden',
     de: 'aktuelle Unix Zeit in Sekunden',
-    he: '????',
+    he: 'זמן יוניקס נוכחי בשניות',
   },
   '#blk-altitude#': {
     en: 'altitude',
@@ -683,7 +683,7 @@ let MSGS = {
     el: 'Εικονικός αισθητήρας που παρέχει την θέση του ρομπότ',
     nl: 'Virtuele sensor die de positie van de robot aanduidt',
     de: 'virtueller Sensor welcher die Position des Roboters festlegt',
-    he: '????',
+    he: 'חיישן וירטואלי אשר מציג את מיקום הרובוט',
   },
   '#blk-pen_down#': {
     en: 'start drawing with pen',
@@ -813,6 +813,7 @@ let MSGS = {
     el: 'Η δημιουργία ενός νέου προγράμματος θα προκαλέσει απώλεια όλων των μη αποθηκευμένων εργασιών.',
     nl: 'Een nieuw programma starten zal leiden tot het verlies van onopgeslagen werk.',
     de: 'WEnn du ein neues Programm beginnst, werden alle nicht gespeicherten Inhalte gelöscht',
+    he: 'יצירת שמירה חדשה תמחק את השינויים שלא נשמרו.'
   },
   '#main-functions_imported': {
     en: 'Functions imported',
@@ -1003,6 +1004,10 @@ let MSGS = {
       '<p>Die GearsBot-Arena erlaubt es mit bis zu 4 Robotern zu kämpfen oder zusammenzuarbeiten.</p>' +
       '<p>Programmiere deinen Roboter mit der normalen GearsBot-Seite (... wo du gerade bist), und exportiere dein Programm und Roboter als zip-Packet (Datei -> Exportiere Zip...).' +
       'Dann kannst du das zip-Packet in die GearsBot-Arena laden um es gegen andere Spieler antreten zu lassen.</p>',
+    he:
+      '<p>זירת הגירסבוט מאפשרת עד ל4 רובוטים להתחרות אחד נגד השני, או יחד.</p>' +
+      '<p>קדדו את הרובוט בעזרת עמוד הגירסבוט (... איפה שאתם נמצאים כעת), והוציאו את קוד הרובוט כZip (קובץ --> הוצא כZip).</P>' +
+      '<p>אתם יכולים לטעון קובץ Zip אל זירת הגירסבוט ולהפעיל אותו מול מתומדדים אחרים.</p>',
   },
   '#main-arenaGo#': {
     en: 'Go to Arena',
@@ -1037,6 +1042,10 @@ let MSGS = {
     de:
       '<p>Der GearsBot Roboterkonfigurator erlaubt es dir einen bereits vorhandenen Roboter oder einen neuen Roboter anzupassen.</p>' +
       '<p>Nachdem du deine Anpassung beendet hast, speicher deine Kreation zu einer Datei und komme zurück um sie zu laden</p>',
+    he:
+      '<p>קונפיגורטור הגירסבוט מאפשר התאמה אישית של רובוט קיים, או יצירת רובוט חדש.</p>' +
+      '<p>לאחר שסיימתם להתאים את הרובוט שלכם, שמרו אותו על מחשבכם.</p>' +
+      '<p>באפשרותכם להעלות את הרובוט שלכם חזרה לקונפיגורטור להתאמות נוספות או לשימוש במגרש.</p>',
   },
   '#main-configurator_go#': {
     en: 'Go to Configurator',
