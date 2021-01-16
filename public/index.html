@@ -180,6 +180,17 @@
   <script>
     // Init classes
     blockly.init();
+    var direction = localStorage.getItem('DIRECTION')
+    if (!direction || direction == '' || direction == 'undefined') {
+          direction = 'ltr'
+    }
+    window.onload = () => {
+    if (navigator.language/*=== rtlLanguage*/) {
+      document.body.dir = direction;
+    }
+};
+
   </script>
 </body>
+
 </html>
