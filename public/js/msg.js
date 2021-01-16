@@ -8,6 +8,7 @@ let MSGS = {
     nl: 'Beweging',
     de: 'Bewegung',
     he: 'תנועה',
+    ar: 'حركة',
   },
   '#blk-motor#': {
     en: 'Motor',
@@ -18,6 +19,7 @@ let MSGS = {
     nl: 'Motor',
     de: 'Motor',
     he: 'מנוע',
+    ar: 'مُحرك',
   },
   '#blk-sensors#': {
     en: 'Sensors',
@@ -28,6 +30,7 @@ let MSGS = {
     nl: 'Sensoren',
     de: 'Sensor',
     he: 'חיישנים',
+    ar: 'مجسات',
   },
   '#blk-sound#': {
     en: 'Sound',
@@ -38,16 +41,19 @@ let MSGS = {
     nl: 'Geluid',
     de: 'Ton',
     he: 'צליל',
+    ar: 'صوت',
   },
   '#blk-pen-category#': {
     en: 'Pen (Experimental)',
     nl: 'Pen (Experimenteel)',
     he: 'עט',
+    ar: 'قلم ',
   },
   '#blk-radio-category#': {
     en: 'Radio (Experimental)',
     nl: 'Radio (Experimenteel)',
     he: 'רדיו',
+    ar: 'راديو',
   },
   '#blk-control#': {
     en: 'Control',
@@ -58,6 +64,7 @@ let MSGS = {
     nl: 'Controle',
     de: 'Kontrolle',
     he: 'שליטה',
+    ar: 'سيطرة',
   },
   '#blk-logic#': {
     en: 'Logic',
@@ -68,6 +75,7 @@ let MSGS = {
     nl: 'Logica',
     de: 'Logik',
     he: 'היגיון',
+    ar: 'منطق',
   },
   '#blk-loops#': {
     en: 'Loops',
@@ -78,6 +86,7 @@ let MSGS = {
     nl: 'Lussen',
     de: 'Schleife',
     he: 'לולאות',
+    ar: 'متواليات',
   },
   '#blk-math#': {
     en: 'Math',
@@ -88,6 +97,7 @@ let MSGS = {
     nl: 'Rekenen',
     de: 'Mathematik',
     he: 'מתמטיקה',
+    ar: 'رياضيات',
   },
   '#blk-text#': {
     en: 'Text',
@@ -98,6 +108,7 @@ let MSGS = {
     nl: 'Tekst',
     de: 'Text',
     he: 'טקסט',
+    ar: 'نص',
   },
   '#blk-lists#': {
     en: 'Lists',
@@ -108,6 +119,7 @@ let MSGS = {
     nl: 'Lijsten',
     de: 'Listen',
     he: 'רשימות',
+    ar: 'قوائم',
   },
   '#blk-variables#': {
     en: 'Variables',
