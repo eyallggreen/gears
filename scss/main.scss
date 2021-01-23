@@ -51,6 +51,18 @@ header {
   }
 }
 
+body[dir="rtl"] {
+  header {
+    .language {
+      margin-left: 0 !important;
+      margin-right: auto;
+    }
+    .gearsIcon{
+      margin-left: 0.5em  !important;
+    }
+  }
+}
+  
 .bold {
   font-weight: bold;
 }
