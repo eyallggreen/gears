@@ -7,6 +7,18 @@ html, body {
   top: 0px;
 }
 
+body[dir="rtl"] {
+  header {
+    .language{
+      margin-left: 0 !important;
+      margin-right: auto;
+    }
+    .gearsIcon{
+      margin-left: o.5em !important;
+    }
+  }
+}
+
 body {
   background: #E4F0FE;
   font-family: sans-serif;
@@ -44,7 +56,7 @@ header {
     color: #95989A;
   }
 
-  .language {
+  .language {   
     margin-left: auto;
     cursor: pointer;
     user-select: none;
