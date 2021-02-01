@@ -8,6 +8,15 @@ html, body {
   top: 0px;
 }
 
+body[dir="rtl"] header .language {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+body[dir="rtl"] header .gearsIcon {
+  margin-left: o 0.5em !important;
+}
+
 body {
   background: #E4F0FE;
   font-family: sans-serif;
