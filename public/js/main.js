@@ -95,7 +95,7 @@ var main = new function() {
         
       ];
 
-      menuDropDown(self.$languageMenu, menuItems, {className: 'languageMenuDropDown', align: 'right'});
+      menuDropDown(self.$languageMenu, menuItems, {className: 'languageMenuDropDown'});
     }
   };
 

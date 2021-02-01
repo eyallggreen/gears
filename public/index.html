@@ -185,10 +185,10 @@
           direction = 'ltr'
     }
     window.onload = () => {
-    if (navigator.language/*=== rtlLanguage*/) {
-      document.body.dir = direction;
-    }
-};
+      if (navigator.language/*=== rtlLanguage*/) {
+        document.body.dir = direction;
+      }
+    };
 
   </script>
 </body>

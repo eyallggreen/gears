@@ -49,20 +49,36 @@ header {
     cursor: pointer;
     user-select: none;
   }
+  
 }
 
+body[dir="ltr"] {
+  header {
+    .language {
+      .menuDropDown.languageMenuDropDown{
+        left :auto !important;
+        right: 0;
+      }
+    }
+  }
+}
+ 
 body[dir="rtl"] {
   header {
     .language {
       margin-left: 0 !important;
       margin-right: auto;
+      .languageMenuDropDown{
+        left:0;
+        right: auto !important;
+      }
     }
     .gearsIcon{
       margin-left: 0.5em  !important;
     }
   }
 }
-  
+
 .bold {
   font-weight: bold;
 }
